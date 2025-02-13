@@ -20,7 +20,7 @@ const TimeUnit = ({ value, label }: { value: number; label: string }) => (
 
 export default function CountdownTimer() {
   const t = useTranslations();
-  const targetDate = new Date("2025-02-14T00:00:00").getTime();
+  const targetDate = new Date("2025-02-30T00:00:00").getTime();
 
   const [timeLeft, setTimeLeft] = useState({
     days: 0,
