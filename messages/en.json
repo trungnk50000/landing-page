@@ -1,0 +1,46 @@
+{
+  "HomePage": {
+    "title": "Hello world!"
+  },
+  "Header": {
+    "about": "ABOUT US",
+    "game": "GAMES",
+    "partner": "PARTNERS",
+    "contact": "CONTACT US"
+  },
+  "LocaleSwitcher": {
+    "flag": "{locale, select, vi {🇻🇳} en {🇺🇸} other {🌐}}",
+    "language": "{locale, select, vi {Vietnamese} en {English} other {Unknown}}"
+  },
+  "GettingReady": "We’re Getting Ready",
+  "CountDown": {
+    "days": "Days",
+    "hours": "Hours",
+    "minutes": "Minutes",
+    "seconds": "Seconds"
+  },
+  "SubscriptionMessage": "We will back to something amazing. Getting the latest updates about our games. Please sign up to our newsletter.",
+  "AboutSection": {
+    "aboutUs": "About Us",
+    "description": "Browse our selection of free online games and have a great time without leaving the site! Our Kids Games option also includes game reviews, extensive game cheats and walkthroughs, and much more. We have exclusive free downloads, videos, and articles as well. Etech reviews the most popular kids games from all the most popular video gaming platforms, so you don’t need to search around for fun anywhere else on the Internet. Explore a whole new world of gaming on Etech.",
+    "users": "Users",
+    "games": "Games",
+    "hourAccess": "24 - Hour",
+    "hourDescription": "24/7 access ensures operators' businesses runs smoothly all year long.",
+    "design": "Design",
+    "designDescription": "Combining imaginative universes, play dynamics, and unprecedented gameplay, our games transcend the boundaries of the virtual world by weaving innovative gameplay.",
+    "team": "Team",
+    "teamDescription": "Etech is an award-winning, international studio of designers, artists, animators and producers that create content for the biggest names in film and video games. "
+  },
+  "OurGamesTitle": "Our Games",
+  "OurGamesDescription": "As a pioneer of mobile app gamification, we take pride in originality and individuality, providing global players with state-of-the-art games that feature splendid stories, sensational sound effects, and magnificent animation that never cease to impress.",
+  "OurPartners": "Our Partners",
+  "Footer": {
+    "address": "Address",
+    "address1": "Valletta Buildings, South Street, Valletta - VLT 1103 Malta, US",
+    "address2": "20 Phan Dang Luu street, Hai Chau District, Danang city, Vietnam",
+    "phone": "(+1) 555-0108-000 or (+236) 555-0108",
+    "subscribe": "Subscribe",
+    "subscribeDes": "Subscribe to our newsletter and be the first to know about our updates"
+  }
+}

@@ -1,21 +1,41 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@media (prefers-color-scheme: dark) {
+@layer base {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --radius: 0.5rem;
   }
 }
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+.swiper-custom-nav .swiper-button-prev,
+.swiper-custom-nav .swiper-button-next {
+  transform: translateX(-20px);
 }
+.swiper-custom-nav .swiper-button-next {
+  transform: translateX(20px);
+}
+
+.swiper-custom-nav .swiper-button-next,
+.swiper-custom-nav .swiper-button-prev {
+  position: absolute;
+  top: 70%;
+  transform: translateY(-50%);
+  z-index: 10;
+}
+/* .custom-nav-buttons .swiper-button-prev,
+.custom-nav-buttons .swiper-button-next {
+  background-color: white;
+  border-radius: 50%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #007bff;
+}
+
+.custom-nav-buttons .swiper-button-prev:hover,
+.custom-nav-buttons .swiper-button-next:hover {
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+} */
